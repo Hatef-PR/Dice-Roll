@@ -12,7 +12,7 @@ func main() {
 
 	for strings.EqualFold(answer, strings.ToLower("Y")) {
 		min := 1
-    	max := 6
+    		max := 6
 		var numbers = rand.Intn(max-min+1) + min
 		diceRoll(numbers)
 		fmt.Println("_______________________________")
